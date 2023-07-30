@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+body{
+    font-family: serif; 
+    font-size: large;
+}
+
+h1, h2, h3{
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN", "メイリオ";
+}
+
+h3[class="gakuren"] {
+    font-size: larger;
+    color: white;
+    background-color: #00a5a8;
+    padding: 0px 5px;
+    width: 422px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+
+h3[class="miyakooji"] {
+    font-size: larger;
+    color: white;
+    background-color: #00a5a8;
+    padding: 0px 5px;
+    width: 378px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+
+h3[class="hakone"] {
+    font-size: larger;
+    color: white;
+    background-color: #00a5a8;
+    padding: 0px 5px;
+    width: 348px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+
+h3[class="gakuseihalf"] {
+    font-size: larger;
+    color: white;
+    background-color: #00a5a8;
+    padding: 0px 5px;
+    width: 330px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+
+h3[class="ina"] {
+    font-size: larger;
+    color: white;
+    background-color: #00a5a8;
+    padding: 0px 5px;
+    width: 330px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+
+h3[class="kizuna"] {
+    font-size: larger;
+    color: white;
+    background-color: #00a5a8;
+    padding: 0px 5px;
+    width: 300px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+
+h3[class="kankare"] {
+    font-size: larger;
+    color: white;
+    background-color: #00a5a8;
+    padding: 0px 5px;
+    width: 470px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+
+h3[class="inhai"] {
+    font-size: larger;
+    color: white;
+    background-color: #00a5a8;
+    padding: 0px 5px;
+    width: 450px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+
+h3[class="shinseiform"] {
+    font-size: larger;
+    color: white;
+    background-color: #00a5a8;
+    padding: 0px 5px;
+    width: 300px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+
+p {
+    font-weight: bold;
+    margin: 15px 0px -5px 0px
+}
+
+p[class="formsetumei"] {
+    font-weight: bold;
+    margin: 30px 0px -5px 0px
+}
+
+a {
+    font-weight: bold;
+}
+
+p[class="date-text"] {
+    color: #00a5a8;
+    text-decoration-line: underline;
+}
+
+a[class="shinsei"] {
+    color:red;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0.3px 0.3px 0,
+    0.3px -0.3px 0px;
+}
+
+li[class="daimei"] {
+    font-size: larger;
+    font-weight: bold;
+}
+
+img {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37);
+}
+
+input[type="file"] {
+    font-family: serif;
+    font-size: large;
+}
+
+input[type="submit"] {
+    font-family: serif;
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid royalblue;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #00a5a8, #a5fdff);
+}
+
+input[type="reset"] {
+    font-family: serif;
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid royalblue;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #ffec80, #fcf7cd);
+}
+
+.zoom {
+    transition: transgorm 0.3s;
+}
+.zoom.in{
+    transform-origin: left;
+    transform: scale(2, 2);
+}
+
+.zoom:hover {
+    cursor: zoom-in;
+}
+
+.zoom.in:hover {
+    cursor: zoom-out
+}
